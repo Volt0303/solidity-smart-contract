@@ -3,6 +3,7 @@ pragma solidity ^0.4.24;
 /// @author David Li <davidli012345@gmail.com>
 /// @dev basic authentication contract
 /// @notice tracks list of all users
+
 contract Authentication {
   struct User {
     bytes32 name;
